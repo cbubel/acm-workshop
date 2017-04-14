@@ -14,7 +14,7 @@ So, why go through all the trouble? These technologies are incredibly powerful a
 ## The goal
 The goal of this workshop is to give you a small view into the chaotic world of modern web development. It is by no means the only way things can or should be done. If you use this setup, however, you'll have a very smooth development process, very conducive for rapid development.
 
-It should be noted, however, that this environment is suited for doing something like making a game. If you wanted to make an actual web app with a server and whatnot, you'd need a few more components. I highly recommend Angular 2 or Aurelia if you're looking for a front-end framework.
+It should be noted, however, that this environment is suited for doing something like making a game. It basically only sets you up for writing pure JavaScript (TypeScript) without any other frameworks or libraries. If you wanted to make an actual web app with a server and whatnot, you'd need a few more components. I highly recommend Angular 2 or Aurelia if you're looking for a front-end framework.
 
 ## Requirements
 - [Node and NPM](https://nodejs.org/en/)
