@@ -31,7 +31,11 @@ So, why do we need a bundler? We don't want to write all of our JavaScript (or T
 So, we use Webpack to take all of our JavaScript, link it into one big file, and maybe run transformations on it (like invoking the Typescript compiler).
 
 ## Typescript
-Typescript is a statically typed superset of JavaScript. It is, by far, my favorite thing about modern web development. It may be cool at first to not have to explicitly define types for things in regular JavaScript, but it leads to so many bugs, so fast. Typescript allows us to write less buggy code, since we won't even be able to compile it if there are potentialy bugs. If you have a function foo(x), you can now declare that x is a string, or a number, or a boolean, or an implementation of an interface, or an object, etc. This is super helpful. If I had to recommend one thing for beginner web developers to learn, it would be Typescript.
+Typescript is a statically typed superset of JavaScript. It is, by far, my favorite thing about modern web development. It may be cool at first to not have to explicitly define types for things in regular JavaScript, but it leads to so many bugs, so fast.
+
+Typescript allows us to write less buggy code, since we won't even be able to compile it if there are potentialy bugs. If you have a function foo(x), you can now declare that x is a string, or a number, or a boolean, or an implementation of an interface, or an object, etc. This is super helpful.
+
+It should be noted that Typescript really isn't that different from modern JavaScript, i.e., ES2015, which is why I don't feel like I'm wasting my time with some obscure language that will never be used. Quite the opposite is true of Typescript, actually. It's one of the most popular languages in web development - I think even Google recently approved it for internal use. It's also the recommended language of use for Angular. If I had to recommend one thing for beginner web developers to learn, it would be Typescript.
 
 ## Setup
 Currently, if you clone this repository, you should be able to simply open the index.html file in your favorite browser (very untested) and play the game. If you want to make changes, however, you'll need to install the above dependencies.
