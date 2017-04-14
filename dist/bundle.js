@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -73,21 +73,8 @@
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var Game_1 = __webpack_require__(1);
-// This is where we create the game.
-// This file is linked in index.html.
-var game = new Game_1.Game();
-
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var Food_1 = __webpack_require__(2);
-var Player_1 = __webpack_require__(3);
+var Food_1 = __webpack_require__(1);
+var Player_1 = __webpack_require__(2);
 var Game = (function () {
     function Game() {
         this.foods = this.createFood(Game.startingFoodCount);
@@ -134,7 +121,7 @@ exports.Game = Game;
 
 
 /***/ }),
-/* 2 */
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -169,13 +156,13 @@ exports.Food = Food;
 
 
 /***/ }),
-/* 3 */
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var Game_1 = __webpack_require__(1);
+var Game_1 = __webpack_require__(0);
 var Player = (function () {
     function Player(collisionCallback) {
         this.x = this.y = Player.startingCoord;
@@ -252,6 +239,19 @@ Player.startingSpeed = 3;
 Player.startingSize = 10;
 Player.startingCoord = (500 / 2) - Player.startingSize;
 exports.Player = Player;
+
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var Game_1 = __webpack_require__(0);
+// This is where we create the game.
+// This file is linked in index.html.
+var game = new Game_1.Game();
 
 
 /***/ })
