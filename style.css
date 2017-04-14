@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    font-family: arial;
+}
+
+#gameboard {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #CCC;
+}
+
+.player, .food {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.player {
+    background-color: #B35536;
+}
+
+.food {
+    background-color: #A1D490;
+}
