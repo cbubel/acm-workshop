@@ -55,3 +55,10 @@ What were the steps taken to set up this environment? Assuming that Node/NPM and
 
 ## Why Visual Studio Code
 Microsoft has done a fantastic job at creating an editor that works well with TypeScript. One would hope so, seeing as how they also created TypeScript. Being able to peek and go to definitions and see an abundance of type information is very helpful in developing. It is my favorite editor for OSX (with full Visual Studio being my favorite for Windows).
+
+## A word on the game in this project
+I am by no means a game developer. I have only ever made a few games for class projects, and I've never used a real framework. But, games are fun to make, especially for hackathons, and it's a great way to demonstrate the power of TypeScript.
+
+The structure of the code itself probably isn't the best, there are a few bugs, and it's using HTML divs as the objects of the game, which aren't very good for moving animatedly. But, it's fairly straightforward, and it's very easy to use divs as objects.
+
+So the purpose of the project is more to demonstrate the use of TypeScript. You'll probably notice it looks more like Java than the regular JavaScript you're used to. This is a good thing, despite the ill-will everyone seems to have for Java.
