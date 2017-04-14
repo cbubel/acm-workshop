@@ -47,4 +47,4 @@ What were the steps taken to set up this environment? Assuming that Node/NPM and
 7. Run ```webpack``` or ```webpack --watch``` from the command line.
 
 ## tsconfig.json and webpack.config.js
-```tsconfig.json``` is essentially the settings for the Typescript compiler. Likewise, webpack.config.js is a configuration for Webpack. I highly recommend reading a bit through [this guide](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) (ignore React) to learn more about the configurations.
+```tsconfig.json``` is essentially the settings for the Typescript compiler. Likewise, ```webpack.config.js``` is a configuration for Webpack. I highly recommend reading a bit through [this guide](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) (ignore React) to learn more about the configurations.
