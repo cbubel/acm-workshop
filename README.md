@@ -18,7 +18,7 @@ The goal of this workshop is to give you a small view into the chaotic world of 
 - [Node and NPM](https://nodejs.org/en/)
 - [Webpack](https://www.npmjs.com/package/webpack) (installed via NPM)
 - [Typescript](https://www.typescriptlang.org)
-- (Recommended) [Visual Studio Code](https://code.visualstudio.com)
+- [Visual Studio Code](https://code.visualstudio.com) (Recommended)
 
 ## Node and NPM
 Node is a JavaScript runtime, and NPM is the Node Package Manager. We won't worry about Node for now, but we'll use NPM to install other dependencies from the command line.
@@ -48,3 +48,6 @@ What were the steps taken to set up this environment? Assuming that Node/NPM and
 
 ## tsconfig.json and webpack.config.js
 ```tsconfig.json``` is essentially the settings for the Typescript compiler. Likewise, ```webpack.config.js``` is a configuration for Webpack. I highly recommend reading a bit through [this guide](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html) (ignore React) to learn more about the configurations.
+
+## Why Visual Studio Code
+Microsoft has done a fantastic job at creating an editor that works well with Typescript. One would hope so, seeing as how they also created Typescript. Being able to peek and go to definitions and see an abundance of type information is very helpful in developing. It is my favorite editor for OSX (with full Visual Studio being my favorite for Windows).
