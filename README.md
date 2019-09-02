@@ -2,10 +2,10 @@
 Why you should consider using web technologies for the hackathon.
 
 ## Web tech is powerful
-With web technologies, like HTML, CSS, and JavaScript, you can prototype (and build) applications at an incredibly fast pace, largely because there is a quick and low cost feedback loop while iterating over the design. The basic workflow is often: write some code, save, refresh the browser.
+With web technologies, like HTML, CSS, and JavaScript, you can prototype (and build) applications at an incredibly fast pace, largely because there is a quick and low cost feedback loop while iterating over the design. The basic workflow is often: write some code, save, check the browser.
 
 ## Web tech is confusing
-Web development has gotten way to complicated over the past few years. There are new terms/libraries/frameworks/ideas popping up every day. ES2015, Node, Express, NPM, Grunt, Gulp, Browserify, Bower, SystemJS, CommonJS, AMD, Webpack, TypeScript, Elm, RequireJS, Angular, React, Aurelia, Vue, Ember, Backbone, Redux, Flux, Electron.
+Web development has gotten way too complicated over the past few years. There are new terms/libraries/frameworks/ideas popping up every day. ES2015, Node, Express, NPM, Grunt, Gulp, Browserify, Bower, SystemJS, CommonJS, AMD, Webpack, TypeScript, Elm, RequireJS, Angular, React, Aurelia, Vue, Ember, Backbone, Redux, Flux, Electron.
 
 How do you stay up to date with all these technologies, what they do, and when they should be used? It takes a lot of practice and reading to get acquainted with the newest library, and this can be very intimidating for beginners.
 
